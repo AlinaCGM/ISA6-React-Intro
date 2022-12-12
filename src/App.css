@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.App {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+/*--------------------------------- NAVBAR */
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+}
+
+.logo {
+  align-self: center;
+}
+.image-logo {
+  width: 20px;
+}
+.login {
+  align-self: center;
+  padding-right: 40px;
+}
+
+/*--------------------------------- HERO */
+.hero-container {
+  padding-bottom: 30px;
+  background-color: #9d73c7;
+  color: white;
+}
+.hero-main {
+  display: flex;
+}
+.hero-title {
+  width: 40%;
+  height: 30vh;
+  text-align: start;
+  margin-left: 5%;
+  letter-spacing: 1px;
+  font-size: 140%;
+}
+.hero-image {
+  width: 60%;
+  background-image: url("./images/laptop.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image-hero {
+  width: 100%;
+}
+h5 {
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 0;
+}
+/*----------------------------- SIGN UP */
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 5%;
+  border-bottom: 1px solid rgb(214, 209, 209);
+}
+.btn {
+  align-self: center;
+  border: 1px solid rgb(214, 209, 209);
+  border-radius: 4px;
+  padding: 2px 5px 2px 5px;
+}
+/* -------------------------------SERVICES */
+.services-container {
+  display: flex;
+  gap: 5%;
+  padding-block: 50px;
+}
+.icon {
+  width: 50px;
+}
